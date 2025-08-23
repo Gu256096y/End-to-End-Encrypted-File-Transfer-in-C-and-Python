@@ -1,2 +1,4 @@
 # End-to-End-Encrypted-File-Transfer-in-C-and-Python
  A client server project implementing secure registration, key exchange, and end to end encrypted communication. The client is written in C++ and the server in Python, using RSA for key exchange, AES for encryption, and CRC for file integrity validation over TCP.
+
+This project implements an end to end encrypted messaging and file transfer system with a C++ client and a Python server. The system supports secure client registration with RSA public keys, generation and distribution of AES session keys, and encrypted message exchange. Files are encrypted with AES in CBC mode and validated using CRC before transfer. The server manages registered users and relays messages and files between clients while preserving confidentiality and integrity.
