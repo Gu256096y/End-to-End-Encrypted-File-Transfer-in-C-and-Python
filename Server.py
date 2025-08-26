@@ -1,4 +1,4 @@
-#Guy Rav On 315044743
+#Guy Rav On
 
 import socket
 import threading
@@ -30,3 +30,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
