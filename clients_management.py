@@ -1,4 +1,4 @@
-#Guy Rav On 315044743
+#Guy Rav On
 
 # Function to check if the username is already registered
 def is_username_registered(username, registered_users):
@@ -11,4 +11,5 @@ def register_username(username, client_id, registered_users):
         'client_id': client_id,
         'public_key': None,
         'aes_key': None
+
     }
