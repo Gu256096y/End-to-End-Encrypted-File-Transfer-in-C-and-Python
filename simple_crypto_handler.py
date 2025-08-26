@@ -1,4 +1,4 @@
-#Guy Rav On 315044743
+#Guy Rav On
 
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import unpad
@@ -52,4 +52,5 @@ def decrypt_file(client_id_bytes, file_name, registered_users):
 # Function to generate a UUID and return it as a 16-byte string
 def generate_uuid_client_id():
     new_uuid = uuid.uuid4().hex
+
     return bytes.fromhex(new_uuid)
