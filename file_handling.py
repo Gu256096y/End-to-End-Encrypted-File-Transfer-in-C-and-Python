@@ -1,4 +1,4 @@
-#Guy Rav On 315044743
+#Guy Rav On
 
 # Function to read the port from the port.info file
 def read_port_from_file(filename):
@@ -12,4 +12,5 @@ def read_port_from_file(filename):
             print("Invalid port in file, defaulting to 1256.")
     except FileNotFoundError:
         print(f"{filename} not found, defaulting to 1256.")
+
     return 1256  # Default port if file not found or invalid
