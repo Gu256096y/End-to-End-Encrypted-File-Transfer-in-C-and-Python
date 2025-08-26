@@ -1,4 +1,4 @@
-#Guy Rav On 315044743 - imported from Course site
+#Guy Rav On - imported from Course site
 
 """
 This module implements the cksum command found in most UNIXes in pure
@@ -85,3 +85,4 @@ def readfile(fname):
     except Exception as err:
         print ("Error processing the file", err)
         exit (-1)
+
