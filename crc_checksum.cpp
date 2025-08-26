@@ -1,4 +1,4 @@
-//Guy Rav On 315044743
+//Guy Rav On
 
 #include "crc_checksum.h"
 
@@ -475,4 +475,5 @@ std::string readfile(std::string fname) {
         std::cerr << "Cannot open input file " << fname << std::endl;
         return "";
     }
+
 }
