@@ -1,4 +1,4 @@
-//Guy Rav On 315044743
+//Guy Rav On
 
 #include "client_request.h"
 #include "RSA_keys_handling.h"
@@ -669,4 +669,5 @@ void send_encrypted_file_in_packets(const std::string& client_id_str, uint16_t c
         boost::asio::write(socket, boost::asio::buffer(message));
         std::cout << "Packet " << packet_number << " of " << total_packets << " sent. Size: " << packet_data.size() << " bytes." << std::endl;
     }
+
 }
