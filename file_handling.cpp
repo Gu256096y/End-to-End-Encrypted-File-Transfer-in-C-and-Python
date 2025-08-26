@@ -1,4 +1,4 @@
-//Guy Rav On 315044743
+//Guy Rav On
 
 #include "file_handling.h"
 
@@ -72,4 +72,5 @@ std::pair<std::string, std::string> read_username_and_file_from_file(const std::
     else {
         throw std::runtime_error("Error: Invalid format or missing username/file name in " + filename);
     }
+
 }
