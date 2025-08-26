@@ -1,4 +1,4 @@
-//Guy Rav On 315044743
+//Guy Rav On
 
 #ifndef CLIENT_REQUEST_H
 #define CLIENT_REQUEST_H
@@ -64,3 +64,4 @@ void load_encrypted_file_into_vector(const std::string& encrypted_file_name, std
 void send_encrypted_file_in_packets(const std::string& client_id_str, uint16_t code, const std::vector<uint8_t>& encrypted_data, size_t original_file_size, const std::string& file_name, boost::asio::ip::tcp::socket& socket);
 
 #endif //CLIENT_REQUEST_H
+
