@@ -1,4 +1,4 @@
-//Guy Rav On 315044743
+//Guy Rav On
 
 #ifndef FILE_HANDLING_H
 #define FILE_HANDLING_H
@@ -19,5 +19,6 @@ std::pair<std::string, std::string> read_username_and_file_from_file(const std::
 
 //Function to check if a file exists
 bool file_exists(const std::string& filename);
+
 
 #endif //FILE_HANDLING_H
