@@ -1,4 +1,4 @@
-#Guy Rav On 315044743
+#Guy Rav On
 
 import struct
 import socket
@@ -249,4 +249,5 @@ def send_response(client_socket, code, payload):
         response += payload
 
     client_socket.sendall(response)
+
     print(f"Sent response: Version={version}, Code={code}, Payload Size={payload_size}")
