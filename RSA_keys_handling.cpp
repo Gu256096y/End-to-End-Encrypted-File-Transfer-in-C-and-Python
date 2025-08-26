@@ -1,4 +1,4 @@
-//Guy Rav On 315044743
+//Guy Rav On
 
 #include "RSA_keys_handling.h"
 
@@ -89,4 +89,5 @@ std::string generate_and_save_rsa_keys() {
     }
 
     return publicKeyBase64;  //Return the base64-encoded public key
+
 }
